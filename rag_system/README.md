@@ -1,36 +1,35 @@
 # RAG Document QA System
 
-A complete Retrieval-Augmented Generation (RAG) system for semantic question answering over PDFs, CSVs, and text documents.
+A complete **Retrieval-Augmented Generation (RAG)** system for semantic question answering over PDFs, CSVs, and text documents.
 
-## Features
+## ✨ Key Features
 
-✨ **Document Processing**
-- Support for multiple file formats: PDF, CSV, TXT, MD, DOCX
-- Intelligent text chunking with configurable overlap
+📄 **Multi-Format Document Support**
+- PDF, CSV, TXT, Markdown, Word documents
+- Intelligent text chunking
 - Automatic metadata extraction
 
 🔍 **Semantic Retrieval**
-- FAISS and ChromaDB vector database support
-- OpenAI and HuggingFace embedding models
-- Similarity-based document retrieval with configurable thresholds
+- OpenAI & HuggingFace embeddings
+- Chroma & FAISS vector databases
+- Configurable similarity thresholds
 
 🤖 **LLM Integration**
-- Support for OpenAI GPT models
+- OpenAI GPT-3.5 & GPT-4
 - HuggingFace model support
-- Context-aware question answering
+- Context-aware responses
 
-💬 **Interactive UI**
-- Clean Streamlit web interface
-- Real-time document upload and processing
-- Conversational chat with history
-- Document management dashboard
-- System information and monitoring
+💬 **Web Interface**
+- Beautiful Streamlit UI
+- Real-time chat
+- Document management
+- Conversation history
 
-⚙️ **Configuration**
-- Environment variable configuration
-- Flexible model selection
-- Customizable retrieval parameters
-- Caching support
+⚙️ **Production Ready**
+- REST API endpoints
+- Docker support
+- Comprehensive error handling
+- Caching & optimization
 
 ## Project Structure
 
