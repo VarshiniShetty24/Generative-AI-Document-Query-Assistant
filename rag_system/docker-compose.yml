@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  rag-system:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - HF_API_TOKEN=${HF_API_TOKEN}
+      - LLM_MODEL=gpt-3.5-turbo
+      - EMBEDDING_MODEL=text-embedding-3-small
+      - VECTORSTORE_TYPE=chroma
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+
+  # Optional: PostgreSQL for persistent storage
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=rag_system
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

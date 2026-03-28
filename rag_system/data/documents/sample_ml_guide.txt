@@ -1,0 +1,72 @@
+Sample Document for RAG System
+
+# Introduction to Machine Learning
+
+Machine Learning is a subset of artificial intelligence that focuses on the development of computer programs that can access data and learn from it independently without being explicitly programmed.
+
+## Key Concepts
+
+### 1. Supervised Learning
+Supervised learning is a machine learning approach that requires a labeled dataset. The algorithm learns from the training data and applies this learning to new unseen data to make predictions.
+
+Examples:
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Support Vector Machines (SVM)
+
+### 2. Unsupervised Learning
+Unsupervised learning deals with unlabeled data. The algorithm tries to find patterns or structures in the data without explicit guidance.
+
+Examples:
+- K-Means Clustering
+- Hierarchical Clustering
+- Principal Component Analysis (PCA)
+- Autoencoders
+
+### 3. Reinforcement Learning
+Reinforcement Learning is about training an agent to make decisions by rewarding desirable behavior and penalizing undesirable behavior.
+
+### 4. Deep Learning
+Deep Learning uses artificial neural networks with multiple layers to learn representations of data in a hierarchical manner.
+
+## Applications of Machine Learning
+
+1. **Healthcare**: Diagnosis of diseases, drug discovery, personalized medicine
+2. **Finance**: Credit scoring, fraud detection, algorithmic trading
+3. **Retail**: Customer segmentation, recommendation systems, demand forecasting
+4. **Transportation**: Autonomous vehicles, route optimization
+5. **Natural Language Processing**: Text classification, sentiment analysis, machine translation
+
+## The Machine Learning Pipeline
+
+1. Data Collection: Gather raw data
+2. Data Preprocessing: Clean and normalize data
+3. Feature Engineering: Create relevant features
+4. Model Selection: Choose appropriate algorithm
+5. Model Training: Fit model to training data
+6. Model Evaluation: Assess performance on test data
+7. Hyperparameter Tuning: Optimize model parameters
+8. Deployment: Put model into production
+
+## Challenges in Machine Learning
+
+- **Overfitting**: Model performs well on training data but poorly on new data
+- **Underfitting**: Model is too simple to capture data patterns
+- **Data Quality**: Poor quality data leads to poor models
+- **Computational Resources**: Training complex models requires significant resources
+- **Interpretability**: Understanding why models make certain predictions
+
+## Best Practices
+
+1. Always split data into training and testing sets
+2. Use cross-validation for better evaluation
+3. Monitor for overfitting and underfitting
+4. Keep models simple when possible
+5. Document your process and findings
+6. Regular model monitoring in production
+7. Update models with new data
+
+## Conclusion
+
+Machine Learning has become essential in modern applications. Success requires understanding both the theory and practical implementation aspects. Always focus on the business problem first, then select appropriate techniques.
