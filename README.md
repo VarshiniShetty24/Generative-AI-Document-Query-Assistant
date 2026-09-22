@@ -295,16 +295,6 @@ Example Response
 
 ---
 
-# 📸 Screenshots
-
-Add screenshots of:
-
-- Home Page
-- Document Upload
-- Chat Interface
-- FastAPI Swagger UI
-
----
 
 # 👩‍💻 Author
 
